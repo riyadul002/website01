@@ -88,11 +88,22 @@ nav li a{
   background-position: top left,bottom right
 }
 /* main styles */
-.main{
+main{
   max-width: 1140px;
   margin: 0 auto;
 }
 /* about styles */
 .about{
   border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description{
+  font-weight: 600;
 }
